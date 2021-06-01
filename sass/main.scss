@@ -8,6 +8,7 @@
 @import "./components/link";
 @import "./components/feedback";
 @import "./components/nvg-list__link";
+@import "./base/logo";
 
 :root {
   --color-text1: #212121;
@@ -26,27 +27,6 @@
 //   transition-duration: 250ms;
 //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 // }
-
-.logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: $color-link-focus;
-}
-
-.header__logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-right: 90px;
-}
-
-.header__logo-studio {
-  display: inline-flex;
-  color: $color-text1;
-}
 
 .nvg {
   display: flex;
