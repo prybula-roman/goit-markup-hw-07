@@ -4,23 +4,23 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  background: aqua;
+  // background: aqua;
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
-    background: yellow;
+    // background: yellow;
     margin: 0 auto;
   }
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
-    background: pink;
+    // background: pink;
     margin: 0 auto;
   }
 
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
-    background: green;
+    // background: green;
     margin: 0 auto;
   }
 }
